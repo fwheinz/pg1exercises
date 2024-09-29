@@ -2,7 +2,7 @@
 
 Karels Welt sieht in dieser Aufgabe wie folgt aus:
 
-<img src="KarelLivingroom.png" width=300px>
+<img src="KarelLivingRoom.png" width=300px>
 
 Karel steht in seinem Wohnzimmer (Welt: LivingRoom) und soll, wie in der Vorlesung, den
 Beeper auf der Kommode aufsammeln und dann bis zur rechten Wand weitergehen und
