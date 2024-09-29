@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+   pkgs.openjdk11-bootstrap
    pkgs.SDL_ttf
    pkgs.SDL_image
    pkgs.SDL
