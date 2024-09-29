@@ -22,6 +22,17 @@ Teilaufgaben zu lösen.
 1. Den Beeper aufheben
 1. Bis zur Wand weitergehen
 
+## Hinweise:
+
+Schreiben Sie **eine Funktion** für jeden der oben dargestellten Schritte. Ziel der Übung ist
+es mit dem dem grundsätzlichen Programmablauf vertraut zu werden und Übung darin zu
+bekommen, Probleme in kleinere Teilaufgaben zu zerlegen (Decomposition!).
+
+Achten Sie darauf, sowohl den Code als auch die Kommentare (z.B. pre- und post-conditions)
+in **englisch** zu schreiben: Als Entwickler arbeiten Sie häuﬁg in internationlen Teams mit an-
+deren Entwicklern zusammen, die kein deutsch sprechen. Englisch ist die weltweit aner-
+kannte Standardsprache für Programmiercode. Verwenden Sie aussagekräftige Bezeich-
+nungen für Ihre eigenen Funktionen.
 
 # Karel the Robot
 
