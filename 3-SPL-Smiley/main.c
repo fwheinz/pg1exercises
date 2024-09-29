@@ -8,24 +8,13 @@
 #include "include/gwindow.h"
 #include "include/simpio.h"
 
-#define W 200
-#define H 200
-
-GWindow gw;
-
-void fillCircle (GWindow gw, int x, int y, int r) {
-  int nx = x - r;
-  int ny = y - r;
-  int w = 2*r;
-  int h = 2*r;
-  fillOval(gw, nx, ny, w, h);
-}
 
 int main(void) {
-  gw = newGWindow(W, H);
+  GWindow gw = newGWindow(600, 400);
   pause(500);
   setColor(gw, "orange");
-  fillCircle(gw, W/2, H/2, 50);
+  fillOval(gw, 200, 100, 200, 200);
+
   /* Wait for a mouse click, close the window and terminate program */
   waitForClick();
   closeGWindow(gw);
