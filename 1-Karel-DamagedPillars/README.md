@@ -6,27 +6,17 @@ aus Beepern, fehlende Stücke muss Karel ersetzen:
 
 <img src="KarelPillars1.png" width=300px>
 
-Wenn Karel mit seiner Arbeit fertig ist, müssen die Säulen alle intakt sein, wie auf der fol-
-genden Abbildung dargestellt:
+Wenn Karel mit seiner Arbeit fertig ist, müssen die Säulen alle intakt sein, wie auf der folgenden Abbildung dargestellt:
 
 <img src="KarelPillars2.png" width=300px>
 
 Das Programm muss in der oben dargestellten Welt funktionieren (`DamagedPillar1`), aber
-muss allgemein genug sein, um in jeder Welt zu funktionieren, in der die folgenden Bedin-
-gungen gelten:
-- Karel startet auf dem Feld (1,1) und blickt nach Osten. Er hat eine unendliche Menge
-an *Beepern* in seinem Beutel.
-- Die Säulen sind immer durch 4 Felder getrennt, d.h. sie stehen auf den Feldern (1,1),
-(1,5), (1,9) usw.
-- Die letzte Säule steht immer direkt vor einer Wand und markiert das Ende des Ge-
-bäudes, und damit das Ende der Arbeit für Karel. In der Beispielwelt steht die letzte
-Säule auf Feld (1,13), aber das Programm muss für eine beliebige Anzahl von Säulen
-funktionieren.
-- Das obere Ende einer Säule wird durch eine Wand begrenzt: Karel kann sich aber
-nicht darauf verlassen, dass alle Säulen immer 5 Felder hoch sind, und auch nicht
-darauf, dass alle Säulen in einer Welt die gleiche Höhe haben.
-- Die Säulen sind noch teilweise intakt: Wenn die Säule auf einem Feld intakt ist, d.h.
-ein *Beeper* darauf liegt, dann darf Karel keinen zweiten Beeper auf das Feld legen.
+muss allgemein genug sein, um in jeder Welt zu funktionieren, in der die folgenden Bedingungen gelten:
+- Karel startet auf dem Feld (1,1) und blickt nach Osten. Er hat eine unendliche Menge an *Beepern* in seinem Beutel.
+- Die Säulen sind immer durch 4 Felder getrennt, d.h. sie stehen auf den Feldern (1,1), (1,5), (1,9) usw.
+- Die letzte Säule steht immer direkt vor einer Wand und markiert das Ende des Gebäudes, und damit das Ende der Arbeit für Karel. In der Beispielwelt steht die letzte Säule auf Feld (1,13), aber das Programm muss für eine beliebige Anzahl von Säulen funktionieren.
+- Das obere Ende einer Säule wird durch eine Wand begrenzt: Karel kann sich aber nicht darauf verlassen, dass alle Säulen immer 5 Felder hoch sind, und auch nicht darauf, dass alle Säulen in einer Welt die gleiche Höhe haben.
+- Die Säulen sind noch teilweise intakt: Wenn die Säule auf einem Feld intakt ist, d.h.  ein *Beeper* darauf liegt, dann darf Karel keinen zweiten Beeper auf das Feld legen.
 
 Verwenden Sie die `for`-Anweisung, falls Karel Dinge öfter tun soll und vermeiden Sie damit
 doppelten Code zu schreiben. Testen Sie Ihr Programm auch mit der Welt `DamagedPillar2`.
