@@ -75,12 +75,16 @@ void goToFlag (void) {
 void run (void) {
 	goToFlag();
 	goHome();
-	move();
-	while (beepersPresent()) {
-		bringBeeperHome();
+	if (frontIsClear()) {
+		move();
+		while (beepersPresent()) {
+			bringBeeperHome();
+		}
+		turnAround();
+		move();
+	} else {
+		turnAround();
 	}
-	turnAround();
-	move();
 	turnRight();
 	move();
 }
