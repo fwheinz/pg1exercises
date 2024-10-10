@@ -1,5 +1,4 @@
 modules = ["c-clang14", "cpp-clang14"]
-compile = "make"
 run = "make run"
 
 [nix]
