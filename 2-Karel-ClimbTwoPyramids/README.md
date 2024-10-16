@@ -1,10 +1,6 @@
 # Aufgabe: Karel und die zwei Pyramiden
 
-Karel lebt in einer Welt, die aus ihm und zwei Pyramiden besteht (ClimbTwoPyramidsKarel).
-Karel weiß, dass sich auf manchen Pyramidenstufen Beeper beﬁnden. Da Karel Beeper
-liebt, möchte er nun über beide Pyramiden klettern, um alle Beeper einzusammeln. Karel
-kennt weder die Höhe der Pyramiden, noch sieht er, auf welchen Pyramidenstufen Beeper
-liegen.
+Karel lebt in einer Welt, die aus ihm und zwei Pyramiden besteht (ClimbTwoPyramidsKarel). Karel weiß, dass sich auf manchen Pyramidenstufen Beeper beﬁnden. Da Karel Beeper liebt, möchte er nun über beide Pyramiden klettern, um alle Beeper einzusammeln. Karel kennt weder die Höhe der Pyramiden, noch sieht er, auf welchen Pyramidenstufen Beeper liegen.
 
 So ist der Zustand von Karels Welt, bevor er seine Aufgabe ausgeführt hat:
 
@@ -22,9 +18,7 @@ Karels Wissen über die Welt:
 1. Jede Pyramidenstufe ist ein Feld tief
 1. Auf den Pyramidenstufen kann ein oder kein Beeper liegen
 
-Ausgangs-/Endsituation: Karel steht im Feld (1,1) und schaut nach Osten. Nach dem Über-
-queren der Pyramiden sollte Karel im Feld (n,1) stehen, alle Beeper eingesammelt haben
-und wiederum nach Osten schauen.
+Ausgangs-/Endsituation: Karel steht im Feld (1,1) und schaut nach Osten. Nach dem Überqueren der Pyramiden sollte Karel im Feld (n,1) stehen, alle Beeper eingesammelt haben und wiederum nach Osten schauen.
 
 # Karel the Robot
 
