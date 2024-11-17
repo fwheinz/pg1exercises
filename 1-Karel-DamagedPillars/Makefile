@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-O2 -ggdb -I../karel/include -Wall $(shell sdl-config --cflags)
-LDFLAGS=-lSDL -lSDL_ttf -lSDL_image
+LDFLAGS=-lSDL -lSDL_ttf -lSDL_image -lpthread
 OBJ=DamagedPillars.o ../karel/lib/libkarel.a
 
 karel: $(OBJ)
@@ -10,4 +10,4 @@ clean:
 	rm -f karel *.o
 
 run: karel
-	./karel
+	./karel 2>/dev/null

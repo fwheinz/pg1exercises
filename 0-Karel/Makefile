@@ -10,4 +10,4 @@ clean:
 	rm -f *.o karel
 
 run: karel
-	./karel
+	./karel 2>/dev/null
