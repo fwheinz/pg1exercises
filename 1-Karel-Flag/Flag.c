@@ -15,7 +15,5 @@ void setup (void) {
 //    loadWorld("flagDistance2");
 }
 
-void run (void) {
-	move();
-    
+void run (void) {    
 }
