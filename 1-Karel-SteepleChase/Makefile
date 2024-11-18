@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-O2 -ggdb -I../karel/include -Wall $(shell sdl-config --cflags)
 LDFLAGS=-lSDL -lSDL_ttf -lSDL_image -lpthread
-OBJ=DamagedPillars.o ../karel/lib/libkarel.a
+OBJ=SteepleChase.o ../karel/lib/libkarel.a
 
 karel: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(LDFLAGS)
