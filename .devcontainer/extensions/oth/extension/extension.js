@@ -8,13 +8,14 @@ const child = require("child_process");
 async function activate(context) {
     context.subscriptions.push(vscode.commands.registerCommand("oth.launchGUI", 
         () => {
-            let vncurl = `https://${process.env['CODESPACE_NAME']}-6080.${process.env['GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN']}/vnc.html?autoconnect=true`
+            let vncurl = `https://${process.env['CODESPACE_NAME']}-6080.${process.env['GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN']}/`
             vscode.env.openExternal(vscode.Uri.parse(vncurl))
         }
     ))
     context.subscriptions.push(vscode.commands.registerCommand("oth.startProgram", 
-        () => {
-            vscode.window.activeTerminal.sendText('/workspaces/$RepositoryName/run.sh');
+        async () => {
+            await vscode.commands.executeCommand("workbench.action.terminal.sendSequence", { text : "\x03" })
+            vscode.window.activeTerminal.sendText("/workspaces/$RepositoryName/run.sh")
         }
     ))
 }
