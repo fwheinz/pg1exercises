@@ -12,7 +12,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "/workspaces/pg1exercises/.devcontainer/extensions/oth-1.0.0.vsix"
+        "/workspaces/pg1exercises/.devcontainer/extensions/oth-1.0.0.vsix",
+        "ms-vscode.cpptools"
       ],
       "settings": {
         "workbench.editorAssociations": {

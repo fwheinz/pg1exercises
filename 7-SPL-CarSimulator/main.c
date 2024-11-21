@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
-// We use full paths here to enable replit code introspection
-#include "include/cslib.h"
-#include "include/gevents.h"
-#include "include/gmath.h"
-#include "include/gobjects.h"
-#include "include/gwindow.h"
-#include "include/simpio.h"
-#include "include/random.h"
+
+#include "cslib.h"
+#include "gevents.h"
+#include "gmath.h"
+#include "gobjects.h"
+#include "gwindow.h"
+#include "simpio.h"
+#include "random.h"
 
 /* Constants */
 #define CAR_NUM 100

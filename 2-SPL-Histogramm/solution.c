@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h>  /* for printf */
-#include "include/simpio.h" /* for getInteger */
+#include "simpio.h" /* for getInteger */
 
 int n1, n2, n3, n4, n5;
 
