@@ -15,8 +15,5 @@ void setup (void) {
 
 void run (void) {
     move();
-    move();
-
-
 }
 
