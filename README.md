@@ -19,7 +19,7 @@ Start coding:
 
 Execute your program:
 
-- Open the OTH menu on the left side (sometimes the icon is not showing, it is directly below the last icon on the left side)
+- Open the OTH menu on the left side (sometimes the icon is invisible but still usable, it is directly below the last icon on the left side)
 - Choose "Compile&Start". This will compile the project with the most recently changed source file
 - **Important** Watch out for compile warnings and errors in the terminal on the bottom!
 - If the program started successfully the terminal will provide the input and output of the process
