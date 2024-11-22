@@ -25,4 +25,10 @@ Execute your program:
 - If the program started successfully the terminal will provide the input and output of the process
 - If your program is GUI based (e.g. Karel or SPL) you can open the graphical view in the OTH menu either in a separate browser window or in a VSCode Tab.
 
+Additional hints:
+
+- You can find your codespaces at https://github.com/codespaces
+
 Good luck!
+
+2024-11-22 Florian Heinz <florian.heinz@oth-regensburg.de>
