@@ -18,8 +18,13 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "oth.launchGUI",
-				"title": "Launch noVNC Viewer for GUI programs",
+				"command": "oth.launchGUIBrowser",
+				"title": "Launch noVNC Viewer for GUI programs in new browser window",
+				"icon": "$(home)"
+			},
+			{
+				"command": "oth.launchGUIInternal",
+				"title": "Launch noVNC Viewer for GUI programs in VSCode tab",
 				"icon": "$(home)"
 			},
 			{
@@ -48,7 +53,7 @@
 		"viewsWelcome": [
 			{
 				"view": "oth-menu",
-				"contents": "Compile and Start program:\n[Compile&Start](command:oth.startProgram)\nLaunch noVNC client to view your GUI program:\n[GUI](command:oth.launchGUI)"
+				"contents": "Compile and Start program:\n[Compile&Start](command:oth.startProgram)\nLaunch noVNC client to view your GUI program in a new browser window:\n[GUI (Browser)](command:oth.launchGUIBrowser)\nLaunch noVNC client to view your GUI program in a VSCode tab:\n[GUI (VSCode)](command:oth.launchGUIInternal)"
 			}
 		]
 	}
