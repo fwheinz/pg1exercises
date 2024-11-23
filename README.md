@@ -15,6 +15,7 @@ Start coding:
 
 - Choose the File Explorer (top symbol on the left)
 - Choose an exercise folder
+- Read the README.md file containing the task instructions
 - Work on the source files
 
 Execute your program:
