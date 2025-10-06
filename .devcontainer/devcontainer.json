@@ -3,6 +3,7 @@
   "features": {
       "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
+  "initializeCommand": "docker system prune --all --force",
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
