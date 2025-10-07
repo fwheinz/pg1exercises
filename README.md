@@ -10,6 +10,7 @@ To create your own codespace perform the following steps:
 - Click on the green button **<> Code**
 - Click on the green button **Create codespace on main**
 - **Important:** Be patient! Wait until all elements on the screen are settled. This may take up to 10 minutes.
+- If the container creation fails and your container is in recovery mode, rebuild the container by clicking into the search field above, choose **"Show and run commands"** and then **"Codespaces: Rebuild Container"**. Do a **"Full Rebuild"** there.
 
 Start coding:
 
